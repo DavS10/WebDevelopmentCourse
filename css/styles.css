@@ -60,15 +60,16 @@ section {
 @media(min-width: 768px) and (max-width: 991px) { /*Tablet*/
 	.col-md-12, .col-md-6 {
 		float:left;
-		margin-right: 1%;
-		margin-bottom: 15px;
+		margin-right: 1.5%;
+		margin-left:1.5%;
+		margin-bottom: 25px;
 		border: 1px solid black;
 	}
 	.col-md-6 {
-		width: 49%;
+		width: 47%;
 	}
 	.col-md-12 {
-		width: 99%;
+		width: 97%;
 	}
 	#menu {
 		margin-bottom: 40px;
@@ -79,7 +80,7 @@ section {
 		float:left;
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 		border: 1px solid black;
 		width:90%;
 	}
