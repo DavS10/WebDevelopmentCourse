@@ -1,0 +1,76 @@
+body {
+	font-size: 16px;
+	color:#331a00;
+	background-color:#fe9e38;
+	font-family:'Arial', sans-serif;
+}
+
+/** Header **/
+#header-nav {
+	background-color: #d06b01;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1{
+	font-size: 1.55em;
+	color: #004d00;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list li {
+  color: #003300;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 1px;
+}
+#nav-list li:hover {
+  background: #fff3e6;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fe9e38;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/** End Header**/
+
+/** Main content **/
+#menu-title{
+	font-size: 1.8em;
+}
+h3 {
+	font-size: 1.4em;
+}
+section.row{
+	margin: 10px;
+	background-color: #ffdab3;
+}
+/** End Main Content **/
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px){
+
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+
+}
+/******* Super extra small devices only *******/
+@media (max-width: 479px){
+
+}
